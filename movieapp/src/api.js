@@ -8,6 +8,8 @@ const api = axios.create({
     }
 });
 
+// 인스턴스를 위한 설정하며, baseURL에서 상대경로를 쓸지, 절대경로를 쓸지 결정
+
 export const moviesApi = {
     nowPlaying: () => api.get("movie/now_playing"),
     upcoming: () => api.get("movie/upcoming"),
