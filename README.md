@@ -1,6 +1,6 @@
 # 1405 Movie Web Page
 
-Learning Raect and ES6 by building a Movie Discovery App.
+Learning Raect and ES6 by building a Movie Discovery App. // 
 
 ## Screens
 
@@ -22,4 +22,5 @@ Learning Raect and ES6 by building a Movie Discovery App.
 
 
 ## Header
-     🟩 Logo = background-image // <Link path="/">
+     🟩 Logo = background-image // <Link path="/"> - 2021.06.02
+     🟩 Search => Header 영역으로 옮겨서 가지고 올 수 있을지? 고민 필요 // NETFLIX 처럼 ~ -2021.06.02
