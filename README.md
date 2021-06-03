@@ -19,3 +19,7 @@ Learning Raect and ES6 by building a Movie Discovery App.
      ✅ TV show Detail
      ✅ Movie Detail
      ✅ Search (Movie, TV)
+
+
+## Header
+     🟩 Logo = background-image // <Link path="/">

@@ -24,11 +24,14 @@ const List = styled.ul`
 `;
 
 const Item = styled.li`
-    width: 80px;
+    width: 100px;
     text-align: center;
     font-weight: bold;
     border-bottom: 2px solid ${props => props.current ? "#e67e22" : "transparent"};
     transition: border-bottom .5s ease-in-out;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 `;
 
 const StyledLink = styled(Link)`
@@ -42,10 +45,21 @@ const StyledLink = styled(Link)`
     justify-content: center;
 `;
 
+const Logo = styled.div`
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right:20px;
+`;
+
 export default withRouter(({location: {pathname}}) => (
     <Header>
         {console.log(pathname)}
         <List>
+            <Item>
+                <Logo></Logo>
+            </Item>
             <Item current={pathname === "/"}>
                 <StyledLink to="/">Movies</StyledLink>
             </Item>
