@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, withRouter } from 'react-router-dom';
 import styled from 'styled-components';
+import img from 'Components/assets/파이리.jpg';
 
 const Header = styled.header`
     color:white;
@@ -45,7 +46,7 @@ const StyledLink = styled(Link)`
     justify-content: center;
 `;
 
-const Logo = styled.div`
+const Logo = styled.img`
     width: 60px;
     height: 60px;
     background-color: white;
@@ -55,10 +56,9 @@ const Logo = styled.div`
 
 export default withRouter(({location: {pathname}}) => (
     <Header>
-        {console.log(pathname)}
         <List>
             <Item>
-                <Logo></Logo>
+                <Logo src={img}></Logo>
             </Item>
             <Item current={pathname === "/"}>
                 <StyledLink to="/">Movies</StyledLink>

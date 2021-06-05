@@ -6,6 +6,7 @@ const Container = styled.div`
     :not(:last-child) {
         margin-bottom: 50px;
     }
+    margin-top: 30px;
 `;
 const Title = styled.span`
     font-size: 14px;
