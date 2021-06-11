@@ -2,6 +2,8 @@
 
 Learning Raect and ES6 by building a Movie Discovery App.
 
+## React Chellenge로 수정 및 기능 추가 연기 ##
+
 ## Screens
 
      🟩 Home
